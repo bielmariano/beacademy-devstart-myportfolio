@@ -111,6 +111,11 @@ header .container nav .menu-social img {
 .s-hero .container .title-box .techs img {
   height: 4.8rem;
   width: 4.8rem;
+  transition: all 0.2s;
+}
+
+.s-hero .container .title-box .techs img:hover {
+  transform: translateY(-12%);
 }
 
 .s-hero .container .title-box .btn-primary {
@@ -181,4 +186,110 @@ header .container nav .menu-social img {
   font-weight: 300;
   font-size: 3.2rem;
   line-height: 3.9rem;
+}
+
+/* About */
+
+.s-about {
+  background-color: var(--black-color-medium);
+  padding: 6rem 0rem;
+}
+
+.s-about .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.s-about .container .about-me {
+  width: 100%;
+  max-width: 71rem;
+}
+
+.s-about .container .about-me h2 {
+  font-weight: 900;
+}
+
+.s-about .container .about-me p {
+  font-weight: 400;
+  line-height: 2.4rem;
+  color: var(--white-color);
+  margin-top: 2.4rem;
+}
+
+.s-about .container .about-me ul {
+  display: flex;
+  align-items: flex-end;
+  gap: 1.6rem;
+  margin-top: 3.2rem;
+}
+
+.s-about .container .about-me ul li img {
+  width: 2rem;
+  height: 2rem;
+}
+
+.s-about .container .my-picture img {
+  border-radius: 4px;
+  max-height: 36.8rem;
+}
+
+/* Cases */
+
+.s-cases {
+  padding: 5rem 0rem;
+}
+
+.s-cases .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.s-cases .container .title-cases {
+  margin-bottom: 7.4rem;
+}
+
+.s-cases .container .title-cases h2 {
+  font-weight: 900;
+}
+
+.s-cases .container .cases {
+  display: flex;
+  width: 100%;
+}
+
+.s-cases .container .cases .case img {
+  border-radius: 0.4rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.s-cases .container .cases .case img:hover {
+  transform: translateY(-2%);
+}
+
+.s-cases .container .cases .case:nth-child(2) {
+  border-radius: 0.4rem;
+  cursor: pointer;
+  margin-top: -1.6rem;
+}
+
+/* Footer */
+
+footer {
+  background-color: var(--black-color-medium);
+}
+
+footer .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer .container .copy {
+  color: var(--white-color);
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  padding: 5.2rem 0;
 }
